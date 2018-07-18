@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   
   get '/students/new', to: 'students#new', as: 'new_student'
   
-  post '/students/:id', to: 'students#show', as: 'create_student'
+  post '/students', to: 'students#show', as: 'create_student'
   
   get '/students/:id', to: 'students#show', as: 'student'
   
