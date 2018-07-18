@@ -5,6 +5,6 @@ Rails.application.routes.draw do
   
   get '/students/new', to: 'students#new', as: 'new_student'
   
-  post '/students'
+
   
 end
